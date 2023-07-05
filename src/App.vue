@@ -57,7 +57,7 @@ export default {
 
 <template>
   <header class="bg-gray-700 w-full h-[180px] flex justify-center items-center">
-    <img src="logo.png" alt="" class="" />
+    <h1 class="text-4xl text-blue font-bold">ToDo List</h1>
   </header>
   <div class="relative flex flex-col justify-center items-center">
     <NewTask
@@ -93,7 +93,7 @@ export default {
     </div>
     <div
       v-else
-      class="text-gray-300 flex flex-col gap-3 justify-center items-center mt-6 border-t-2 border-gray-400 p-4"
+      class="text-gray-300 flex flex-col gap-3 justify-center items-center mt-6 pt-12 border-t-2 border-gray-400 p-4"
     >
       <EmptyTask />
     </div>
